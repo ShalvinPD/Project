@@ -32,3 +32,31 @@ Technology : MVC, Ado .Net, SQL Server
 
 Role based Content Management System with approval workflow.
 
+
+## Enquiry Management
+ To track to status of enquiry.
+
+### EnquiryMaster
+ClientId
+ClientName
+ContactPerson
+Technology
+TentativeStartDate
+Description
+Status
+Remarks
+
+EnquirySource
+SourceId    Name      Remarks
+1           Aneesh    Aneesh 
+2           Just Dial
+
+Enquiry Master
+ClientId  ClientName  ContactPerson Technology  Description         Status        EnquirySource TenativeStartDate    Remarks
+1          Donnie      Donnie        MERN        College Training    Not Started  Aneesh                              Most Likely won't take up since it is MERN stack
+2        Jiji Jose    Jiji Jose      .Net       +2 Student                                                           Exam will be over 
+
+EnquiryDetails
+DetailId    ClientId  Date        Remarks
+1            1        2025-02-25  Donnie called when we were cycling. Tryed to contact back
+
